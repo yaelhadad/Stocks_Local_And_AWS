@@ -1,0 +1,942 @@
+[
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "stocks",
+      "model": "stock"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "fields": {
+      "app_label": "stocks",
+      "model": "review"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "65r3bmj0lkf4temxq2abqgvwyra0marm",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBgKAWX7j0DGRhGqoYmpV0Z765NutDtf-_9l4i4rTVuvSxxInEWWpx-t4T5UdoO6I7tNss8t3WZktwVedAurzOV5-Vw_w4q9vqtlUXjHfvBJps0gmdnNLFKQDB4KF5rk8HkMVBgB5wUOzeakDlo8BnE-wPMUjdL:1unv4L:HTRTv-CYq7xxc7wUwkRfTgGlzhvtf32S3h8MwV1QI5k",
+      "expire_date": "2025-09-01T08:18:17.647Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "ix204ok1uofdb9q86qloofe16fbernfh",
+    "fields": {
+      "session_data": ".eJxVjEEOwiAQRe_C2hBgKAWX7j0DGRhGqoYmpV0Z765NutDtf-_9l4i4rTVuvSxxInEWWpx-t4T5UdoO6I7tNss8t3WZktwVedAurzOV5-Vw_w4q9vqtlUXjHfvBJps0gmdnNLFKQDB4KF5rk8HkMVBgB5wUOzeakDlo8BnE-wPMUjdL:1ulEkr:bmQai7HtSYB4ctdbK-LNZFatMRMb8te15ls8ViPyU1Q",
+      "expire_date": "2025-08-24T22:43:05.602Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "r466g0xyi1v6z3en8vkxnkx3jfzud49a",
+    "fields": {
+      "session_data": ".eJxVjMsOwiAQRf-FtSFToAN16d5vIDM8pGogKe3K-O_apAvd3nPOfQlP21r81tPi5yjOQovT78YUHqnuIN6p3poMra7LzHJX5EG7vLaYnpfD_Tso1Mu35mCARzcaA4gpaZxQ4WABOUBUkwPUTDrnTKwH44BBBUs2ggETUnTi_QHEyTde:1uxWV0:jFx4hNPyM-yEtxywZpkx9lUReS6mXu2qktEvA8uRVN0",
+      "expire_date": "2025-09-27T20:05:30.527Z"
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 1,
+    "fields": {
+      "logo": "logos/lly.png",
+      "symbol": "LLY",
+      "company_name": "Eli Lilly and Company",
+      "description": "Global pharmaceutical company focused on discovering and developing medicines for diabetes, oncology, immunology, and neuroscience.",
+      "current_price": "701.23",
+      "market_cap": "628622557000.00",
+      "last_updated": "2025-08-18T08:59:57.604Z",
+      "year_founded": 1876
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 2,
+    "fields": {
+      "logo": "logos/msft.png",
+      "symbol": "MSFT",
+      "company_name": "Microsoft Corporation",
+      "description": "Technology company producing software, hardware, and cloud services. Known for Windows, Office, and Azure cloud platform.",
+      "current_price": "520.17",
+      "market_cap": "3866511802000.00",
+      "last_updated": "2025-08-17T18:15:13.911Z",
+      "year_founded": 1975
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 3,
+    "fields": {
+      "logo": "logos/nvda.PNG",
+      "symbol": "NVDA",
+      "company_name": "NVIDIA Corporation",
+      "description": "Designs graphics processing units (GPUs) for gaming, AI, and professional visualization markets, and systems-on-a-chip for mobile devices.",
+      "current_price": "177.82",
+      "market_cap": "4329383920000.00",
+      "last_updated": "2025-09-13T20:08:01.241Z",
+      "year_founded": 1993
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 4,
+    "fields": {
+      "logo": "logos/mdb.png",
+      "symbol": "MDB",
+      "company_name": "MongoDB, Inc.",
+      "description": "Provides a general-purpose, document-based, distributed database platform used by modern applications.",
+      "current_price": "218.26",
+      "market_cap": "17834963000.00",
+      "last_updated": "2025-08-18T08:54:53.449Z",
+      "year_founded": 2007
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 6,
+    "fields": {
+      "logo": "logos/amazon.png",
+      "symbol": "AMZN",
+      "company_name": "Amazon.com, Inc.",
+      "description": "E-commerce and cloud computing giant providing online retail, Amazon Web Services (AWS), and digital streaming services.",
+      "current_price": "231.03",
+      "market_cap": "2463911641000.00",
+      "last_updated": "2025-08-18T09:11:21.167Z",
+      "year_founded": 1994
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 7,
+    "fields": {
+      "logo": "logos/appl.PNG",
+      "symbol": "AAPL",
+      "company_name": "Apple Inc.",
+      "description": "Technology company designing consumer electronics, software, and online services. Known for iPhone, Mac, iPad, and Apple Watch.",
+      "current_price": "231.59",
+      "market_cap": "3436888195000.00",
+      "last_updated": "2025-08-18T09:01:43.407Z",
+      "year_founded": 1976
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 8,
+    "fields": {
+      "logo": "logos/baba.png",
+      "symbol": "BABA",
+      "company_name": "Alibaba Group Holding Limited",
+      "description": "Chinese multinational specializing in e-commerce, retail, internet, and technology services, including online marketplaces and cloud computing.",
+      "current_price": "155.06",
+      "market_cap": "369966940000.00",
+      "last_updated": "2025-09-13T20:05:36.848Z",
+      "year_founded": 1999
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 9,
+    "fields": {
+      "logo": "logos/coinbase.png",
+      "symbol": "COIN",
+      "company_name": "Coinbase Global, Inc.",
+      "description": "Cryptocurrency exchange platform allowing users to buy, sell, and store digital currencies like Bitcoin and Ethereum.",
+      "current_price": "317.55",
+      "market_cap": "81590657000.00",
+      "last_updated": "2025-08-18T09:21:47.009Z",
+      "year_founded": 2012
+    }
+  },
+  {
+    "model": "stocks.stock",
+    "pk": 10,
+    "fields": {
+      "logo": "logos/paloalto.png",
+      "symbol": "PANW",
+      "company_name": "Palo Alto Networks, Inc.",
+      "description": "Cybersecurity company providing advanced firewalls and cloud-based security solutions for enterprises and service providers.",
+      "current_price": "177.09",
+      "market_cap": "118284788000.00",
+      "last_updated": "2025-08-18T09:28:04.002Z",
+      "year_founded": 2005
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": [
+        "admin",
+        "logentry"
+      ],
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view permission",
+      "content_type": [
+        "auth",
+        "permission"
+      ],
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view group",
+      "content_type": [
+        "auth",
+        "group"
+      ],
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view user",
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view content type",
+      "content_type": [
+        "contenttypes",
+        "contenttype"
+      ],
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view session",
+      "content_type": [
+        "sessions",
+        "session"
+      ],
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add stock",
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "codename": "add_stock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change stock",
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "codename": "change_stock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete stock",
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "codename": "delete_stock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view stock",
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "codename": "view_stock"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can add review",
+      "content_type": [
+        "stocks",
+        "review"
+      ],
+      "codename": "add_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can change review",
+      "content_type": [
+        "stocks",
+        "review"
+      ],
+      "codename": "change_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can delete review",
+      "content_type": [
+        "stocks",
+        "review"
+      ],
+      "codename": "delete_review"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "fields": {
+      "name": "Can view review",
+      "content_type": [
+        "stocks",
+        "review"
+      ],
+      "codename": "view_review"
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$nSxPHMwm3rZeUVjxK6u0Ir$S8FiW3fly3r4N4fv8zBclS/Hn0n2pk5XGZSa4ATdPHk=",
+      "last_login": "2025-08-18T08:41:50.086Z",
+      "is_superuser": true,
+      "username": "yael7100",
+      "first_name": "",
+      "last_name": "",
+      "email": "yael7100@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2025-08-10T21:23:54.248Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "fields": {
+      "password": "pbkdf2_sha256$1000000$XE9kTC3IS8he2c0p4At0Tw$SXhp+ub9wtOK6x1GECqh9pRdTik81vAFEv2vK8Cq4gQ=",
+      "last_login": "2025-09-13T20:05:30.519Z",
+      "is_superuser": false,
+      "username": "yaniv6777",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2025-08-13T23:42:14.673Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 1,
+    "fields": {
+      "stock": 8,
+      "user": [
+        "yael7100"
+      ],
+      "rating": 3,
+      "comment": "I wouldn’t recommend investing in this stock due to Trump’s tariffs on China",
+      "created_at": "2025-08-17T19:41:04.631Z"
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 2,
+    "fields": {
+      "stock": 9,
+      "user": [
+        "yael7100"
+      ],
+      "rating": 5,
+      "comment": "It has high potential; it has been added to the S&P 500 index.",
+      "created_at": "2025-08-17T19:48:08.024Z"
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 3,
+    "fields": {
+      "stock": 3,
+      "user": [
+        "yael7100"
+      ],
+      "rating": 5,
+      "comment": "For investors looking for exposure to AI, high-performance computing, and gaming, NVIDIA represents a market leader with strong growth prospects, robust financials, and a track record of innovation!",
+      "created_at": "2025-08-17T20:26:08.120Z"
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 4,
+    "fields": {
+      "stock": 6,
+      "user": [
+        "yael7100"
+      ],
+      "rating": 2,
+      "comment": "Amazon may face challenges due to thin profit margins, intense competition, and slowing growth in key markets.",
+      "created_at": "2025-08-17T20:27:14.113Z"
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 5,
+    "fields": {
+      "stock": 8,
+      "user": [
+        "yaniv6777"
+      ],
+      "rating": 1,
+      "comment": "It is too risky",
+      "created_at": "2025-08-17T20:28:00.541Z"
+    }
+  },
+  {
+    "model": "stocks.review",
+    "pk": 6,
+    "fields": {
+      "stock": 7,
+      "user": [
+        "yael7100"
+      ],
+      "rating": 5,
+      "comment": "Great company",
+      "created_at": "2025-08-18T08:52:23.219Z"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2025-08-13T21:34:15.047Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "7",
+      "object_repr": "AAPL - Apple Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2025-08-13T21:34:22.126Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "6",
+      "object_repr": "AMZN - Amazon.com, Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2025-08-13T21:34:30.361Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "8",
+      "object_repr": "BABA - Alibaba Group Holding Limited",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2025-08-13T21:34:36.390Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "9",
+      "object_repr": "COIN - Coinbase Global, Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2025-08-13T21:34:43.050Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "1",
+      "object_repr": "LLY - Eli Lilly and Company",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2025-08-13T21:34:49.841Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "4",
+      "object_repr": "MDB - MongoDB, Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2025-08-13T21:34:56.046Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "2",
+      "object_repr": "MSFT - Microsoft Corporation",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2025-08-13T21:35:02.249Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "3",
+      "object_repr": "NVDA - NVIDIA Corporation",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2025-08-13T21:35:09.380Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "10",
+      "object_repr": "PANW - Palo Alto Networks, Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2025-08-13T21:35:16.412Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "5",
+      "object_repr": "TSLA - Tesla, Inc.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Logo\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2025-08-13T21:37:45.169Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "stocks",
+        "stock"
+      ],
+      "object_id": "5",
+      "object_repr": "TSLA - Tesla, Inc.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2025-08-13T23:30:12.454Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "yaniv6777",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Email address\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2025-08-13T23:36:03.340Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "yaniv6777",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Staff status\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2025-08-13T23:39:54.695Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "yaniv6777",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2025-08-13T23:41:52.495Z",
+      "user": [
+        "yael7100"
+      ],
+      "content_type": [
+        "auth",
+        "user"
+      ],
+      "object_id": "2",
+      "object_repr": "yaniv6777",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  }
+]
